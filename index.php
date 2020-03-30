@@ -464,10 +464,11 @@
                 </p>
                 <h5>Descripción de las responsabilidades:</h5>
                 <ul>
-                  <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
-                  <li>Automatización de tareas y control del estado de la infraestructura. Icinga.</li>
-                  <li>Administración del sistema de correo electrónico. Plataforma: G Suite.</li>
-                  <li>Administración y mantenimiento de la red de la compañía (OpenVPN, Endian firewall, UniFi Network).</li>
+                  <li>Desarrollo de la aplicación web de la compañía (CRM
+para automoción y eventos). Laravel, Git, Javascript, Angular...</li>
+                  <li>Atención y resolución de incidencias relacionadas con bugs.</li>
+                  <li>Administración de los servidores de test. Despliegues de nuevas
+versiones. Docker, Jenkins...</li>
                 </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
