@@ -149,7 +149,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/liddeo.png" alt="">
+            <img class="img-fluid" src="img/portfolio/brand/liddeo.png" alt="">
           </div>
         </div>
 
@@ -161,7 +161,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/opentrends.png" alt="">
+            <img class="img-fluid" src="img/portfolio/brand/opentrends.png" alt="">
           </div>
         </div>
 
@@ -173,7 +173,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/bytemaster.png" alt="">
+            <img class="img-fluid" src="img/portfolio/brand/bytemaster.png" alt="">
           </div>
         </div>
       </div>
@@ -280,13 +280,13 @@
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Stalkeas? Toma</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/marc.duranxanco">
-            <i class="fab fa-fw fa-facebook-f"></i>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/marcduranxanco" target="_blank">
+            <i class="fab fa-fw fa-github"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/marcduranxanco">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/marcduranxanco" target="_blank">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/marcduranxanco/">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/marcduranxanco/" target="_blank">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
         </div>
@@ -294,8 +294,8 @@
         <!-- Footer About Text -->
         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">Créditos</h4>
-          <p class="lead mb-0">Esta web está creada a partir del theme Freelance: <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-          <p class="lead mb-0">Las imágenes son de Fullvector: <a href="http://www.freepik.com">Fullvector / Freepik</a>.</p>
+          <p class="lead mb-0">Esta web está creada a partir del theme Freelancer: <a target="_blank" href="https://github.com/BlackrockDigital/startbootstrap-freelancer">Start Bootstrap</a>.</p>
+          <p class="lead mb-0">Las imágenes son de Fullvector: <a target="_blank" href="http://www.freepik.com">Fullvector / Freepik</a>.</p>
         </div>
 
       </div>
@@ -344,31 +344,29 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/sysadmin.png" alt="">
                 <!-- Portfolio Modal - Text -->
-
-<h2>2014 - 2016 · CFGS de ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED</h2><br>
-<h3>IES Sa Palomera (Blanes)</h3><br>
-<h5>RECONOCIMIENTOS:</h5>
-<ul>
-  <li>Matrícula de honor en base al expediente académico.</li>
-  <li>Mención honorífica otorgada por el tribunal de proyecto por "VDI.LOCAL. Infraestructuras de escritorio virtual con Horizon VMware".</li>
-  <li>Certificado LPI Linux Essentials (LPI000364352).</li>
-  <li>Certificado VMWare vSPhere 6.0: Install, Configure and Manage.</li>
-</ul>
-<h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
-<ul>
-  <li>Administración avanzada de sistemas y servicios de red e Internet.</li>
-  <li>Programación estructurada y scripting con Powershell y Bash.</li>
-  <li>Seguridad y alta disponibilidad. Configuración de HA y FT en diferentes plataformas.</li>
-  <li>Administración avanzada de redes y administración de dispositivos de red (CCNA Routing and Switching).</li>
-  <li>Administración y gestión de bases de datos.</li>
-</ul>
-<h5>FORMACIÓN COMPLEMENTARIA</h5>
-<ul>
-  <li>2018 · PUE Barcelona: Microsoft 70-740. Installation, storage and compute with Windows Server 2016 (80h).</li>
-  <li>2018 . PUE Barcelona: Docker Essentials (8h).</li>
-  <li>2019 · AWS Training and certification: Curso - AWS Cloud Practitioner Essentials (Second Edition).</li>
-</ul>
-
+                <h2>2014 - 2016 · CFGS de ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED</h2><br>
+                <h3>IES Sa Palomera (Blanes)</h3><br>
+                <h5>RECONOCIMIENTOS:</h5>
+                <ul>
+                  <li>Matrícula de honor en base al expediente académico.</li>
+                  <li>Mención honorífica otorgada por el tribunal de proyecto por "VDI.LOCAL. Infraestructuras de escritorio virtual con Horizon VMware".</li>
+                  <li>Certificado LPI Linux Essentials (LPI000364352).</li>
+                  <li>Certificado VMWare vSPhere 6.0: Install, Configure and Manage.</li>
+                </ul>
+                <h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
+                <ul>
+                  <li>Administración avanzada de sistemas y servicios de red e Internet.</li>
+                  <li>Programación estructurada y scripting con Powershell y Bash.</li>
+                  <li>Seguridad y alta disponibilidad. Configuración de HA y FT en diferentes plataformas.</li>
+                  <li>Administración avanzada de redes y administración de dispositivos de red (CCNA Routing and Switching).</li>
+                  <li>Administración y gestión de bases de datos.</li>
+                </ul>
+                <h5>FORMACIÓN COMPLEMENTARIA</h5>
+                <ul>
+                  <li>2018 · PUE Barcelona: Microsoft 70-740. Installation, storage and compute with Windows Server 2016 (80h).</li>
+                  <li>2018 . PUE Barcelona: Docker Essentials (8h).</li>
+                  <li>2019 · AWS Training and certification: Curso - AWS Cloud Practitioner Essentials (Second Edition).</li>
+                </ul>
                 </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
@@ -408,25 +406,23 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/develop.png" alt="">
                 <!-- Portfolio Modal - Text -->
-
-<h2>2017 - Actualmente · CFGS de DESARROLLO DE APLICACIONES WEB</h2><br>
-<h3>Institut Obert de Catalunya (Barcelona)</h3><br>
-<h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
-<ul>
-  <li>Programación estructurada, modular y orientada a objetos.</li>
-  <li>Fundamentos de gestión de ficheros y bases de datos.</li>
-  <li>Desarrollo web en entorno cliente. Javascript.</li>
-  <li>Desarrollo web en entorno servidor. PHP, Java.</li>
-  <li>Diseño de interfaces web. Frontend.</li>
-  <li>Introducción y ámbitos de aplicación de XML.</li>
-<li>Bases de datos relacionales, objeto-relacional y NoSQL.</li>
-</ul>
-<h5>FORMACIÓN COMPLEMENTARIA</h5>
-<ul>
-  <li>2018 · PUE Barcelona: Android ATC - Desarrollo de aplicaciones con dispositivos Android (70h).</li>
-</ul>
-
-<button class="btn btn-primary" href="#" data-dismiss="modal">
+              <h2>2017 - Actualmente · CFGS de DESARROLLO DE APLICACIONES WEB</h2><br>
+              <h3>Institut Obert de Catalunya (Barcelona)</h3><br>
+              <h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
+              <ul>
+                <li>Programación estructurada, modular y orientada a objetos.</li>
+                <li>Fundamentos de gestión de ficheros y bases de datos.</li>
+                <li>Desarrollo web en entorno cliente. Javascript.</li>
+                <li>Desarrollo web en entorno servidor. PHP, Java.</li>
+                <li>Diseño de interfaces web. Frontend.</li>
+                <li>Introducción y ámbitos de aplicación de XML.</li>
+              <li>Bases de datos relacionales, objeto-relacional y NoSQL.</li>
+              </ul>
+              <h5>FORMACIÓN COMPLEMENTARIA</h5>
+              <ul>
+                <li>2018 · PUE Barcelona: Android ATC - Desarrollo de aplicaciones con dispositivos Android (70h).</li>
+              </ul>
+              <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Cerrar
                 </button>
@@ -461,17 +457,18 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/liddeo.png" alt="">
                 <!-- Portfolio Modal - Text -->
-          <h2>Octubre 2019 - Actualmente · Programador web</h2><br>
-          <h5>Descripción de las responsabilidades:</h5>
-          <ul>
-            <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
-            <li>Automatización de tareas y control del estado de la infraestructura. Icinga.</li>
-            <li>Administración del sistema de correo electrónico. Plataforma: G Suite.</li>
-            <li>Administración y mantenimiento de la red de la compañía (OpenVPN, Endian firewall, UniFi Network).</li>
-          </ul>
+                <p>
+                  <h2>Programador web</h2>
+                  <h3>Octubre 2019 - Actualmente</h3>
+                </p>
+                <h5>Descripción de las responsabilidades:</h5>
+                <ul>
+                  <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
+                  <li>Automatización de tareas y control del estado de la infraestructura. Icinga.</li>
+                  <li>Administración del sistema de correo electrónico. Plataforma: G Suite.</li>
+                  <li>Administración y mantenimiento de la red de la compañía (OpenVPN, Endian firewall, UniFi Network).</li>
+                </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Cerrar
@@ -507,17 +504,18 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/opentrends.png" alt="">
                 <!-- Portfolio Modal - Text -->
-          <h2>Mayo 2018 - Octubre 2019 · Administrador de sistemas</h2><br>
-          <h5>Descripción de las responsabilidades:</h5>
-          <ul>
-            <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
-            <li>Automatización de tareas y control del estado de la infraestructura. Icinga.</li>
-            <li>Administración del sistema de correo electrónico. Plataforma: G Suite.</li>
-            <li>Administración y mantenimiento de la red de la compañía (OpenVPN, Endian firewall, UniFi Network).</li>
-          </ul>
+                <p>
+                  <h2>Administrador de sistemas</h2>
+                  <h3>Mayo 2018 - Octubre 2019</h3>
+                </p>
+                <h5>Descripción de las responsabilidades:</h5>
+                <ul>
+                  <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
+                  <li>Automatización de tareas y control del estado de la infraestructura. Icinga.</li>
+                  <li>Administración del sistema de correo electrónico. Plataforma: G Suite.</li>
+                  <li>Administración y mantenimiento de la red de la compañía (OpenVPN, Endian firewall, UniFi Network).</li>
+                </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Cerrar
@@ -553,18 +551,19 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/bytemaster.png" alt="">
                 <!-- Portfolio Modal - Text -->
-<h2>Enero 2016 - Mayo 2018 · Administrador de sistemas</h2><br>
-<h5>Descripción de las responsabilidades:</h5>
-<ul>
-  <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
-  <li>Automatización de tareas y control del estado de la infraestructura.</li>
-  <li>Creación y administración de un portal web interno para monitorizar el estado de la infraestructura.</li>
-  <li>Administración del sistema de correo electrónico. Office 365, Exchange 2010 y SonicWall Email Security.</li>
-  <li>Administración y mantenimiento de los servidores DNS.</li>
-</ul>
+                <p>
+                  <h2>Administrador de sistemas</h2>
+                  <h3>Enero 2016 - Mayo 2018</h3>
+                </p>
+                <h5>Descripción de las responsabilidades:</h5>
+                <ul>
+                  <li>Soporte técnico a los usuarios de la infraestructura (nivel I y nivel II).</li>
+                  <li>Automatización de tareas y control del estado de la infraestructura.</li>
+                  <li>Creación y administración de un portal web interno para monitorizar el estado de la infraestructura.</li>
+                  <li>Administración del sistema de correo electrónico. Office 365, Exchange 2010 y SonicWall Email Security.</li>
+                  <li>Administración y mantenimiento de los servidores DNS.</li>
+                </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Cerrar
