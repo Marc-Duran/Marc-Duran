@@ -210,61 +210,6 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <!-- <section class="page-section" id="contact">
-    <div class="container"> -->
-
-      <!-- Contact Section Heading -->
-      <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacta</h2> -->
-
-      <!-- Icon Divider -->
-      <!-- <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-circle"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div> -->
-
-      <!-- Contact Section Form -->
-      <!-- <div class="row">
-        <div class="col-lg-8 mx-auto"> -->
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Nombre</label>
-                <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Introduce tu nombre.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email</label>
-                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Introduce tu correo electrónico.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Mensaje</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Introduce el mensaje."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Envía</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-    </div>
-  </section> -->
-
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
@@ -273,8 +218,14 @@
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Ubicación y Contacto</h4>
-          <p class="lead mb-0">Barcelona</p>
-          <p class="lead mb-0">marc@duranxanco.com</p>
+          <p class="lead mb-0">
+            <i class="fas fa-map-marker-alt"></i>
+            Barcelona
+          </p>
+          <p class="lead mb-0">
+            <i class="fas fa-envelope"></i>
+            marc@duranxanco.com
+          </p>
         </div>
 
         <!-- Footer Social Icons -->
