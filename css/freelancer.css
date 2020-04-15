@@ -406,10 +406,8 @@ h6, .h6 {
   font-weight: 300;
 }
 
-.lead_icons > i{
-  font-size: 3em;
-  display: flex;
-  flex-direction: row;
+.lead_icons {
+  margin-bottom: 20px;
 }
 
 .display-1 {

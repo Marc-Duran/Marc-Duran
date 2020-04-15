@@ -12,6 +12,7 @@
 
   <!-- Custom fonts for this theme -->
   <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -37,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Estudios</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#estudios">Estudios</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#trabajo">Trabajo</a>
@@ -79,7 +80,7 @@
   </header>
 
   <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
+  <section class="page-section portfolio" id="estudios">
     <div class="container">
 
       <!-- Portfolio Section Heading -->
@@ -97,21 +98,21 @@
       <!-- Portfolio Grid Items -->
       <div class="row">
 
-        <!-- Portfolio Item 1 -->
+        <!-- Portfolio Item 3 -->
         <div class="col-md-4 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#estudio_modal_3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/sysadmin.png" alt="">
+            <img class="img-fluid" src="img/portfolio/geekshubs.png" alt="">
           </div>
         </div>
 
         <!-- Portfolio Item 2 -->
         <div class="col-md-4 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#estudio_modal_2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
@@ -121,15 +122,15 @@
           </div>
         </div>
 
-        <!-- Portfolio Item 3 -->
+        <!-- Portfolio Item 1 -->
         <div class="col-md-4 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#estudio_modal_1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/geekshubs.png" alt="">
+            <img class="img-fluid" src="img/portfolio/sysadmin.png" alt="">
           </div>
         </div>
 
@@ -216,7 +217,7 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center lead_icons">
               <i class="fab fa-html5 fa-3x"></i>
               <i class="fab fa-css3-alt fa-3x"></i>
               <i class="fab fa-js-square fa-3x"></i>
@@ -230,12 +231,13 @@
               <i class="fab fa-git-square fa-3x"></i>
               <i class="fab fa-windows fa-3x"></i>
               <i class="fab fa-linux fa-3x"></i>
+              <i class="icon-mysql fa-3x"></i>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="lead">
-            Estás son las tecnologías con las que me gustaría trabjar. Por supuesto, 
+            Estás son las tecnologías con las que más relación tengo.  En ningún caso tengo un dominio absoluto de todas, pero son las herramientas con las que me gustaría relacionarme profesionalmente.
           </p>
         </div>
       </div>
@@ -300,8 +302,8 @@
 
   <!-- Portfolio Modals -->
 
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+  <!-- Estudio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="estudio_modal_1" tabindex="-1" role="dialog" aria-labelledby="estudio_modal_1_label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -323,8 +325,6 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/sysadmin.png" alt="">
                 <!-- Portfolio Modal - Text -->
                 <h2>2014 - 2016 · CFGS de ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED</h2><br>
                 <h3>IES Sa Palomera (Blanes)</h3><br>
@@ -335,7 +335,7 @@
                   <li>Certificado LPI Linux Essentials (LPI000364352).</li>
                   <li>Certificado VMWare vSPhere 6.0: Install, Configure and Manage.</li>
                 </ul>
-                <h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
+                <h5>CONTENIDO DEL CURSO:</h5>
                 <ul>
                   <li>Administración avanzada de sistemas y servicios de red e Internet.</li>
                   <li>Programación estructurada y scripting con Powershell y Bash.</li>
@@ -362,8 +362,8 @@
     </div>
   </div>
 
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+  <!-- Estudio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="estudio_modal_2" tabindex="-1" role="dialog" aria-labelledby="estudio_modal_2Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -385,12 +385,10 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/develop.png" alt="">
                 <!-- Portfolio Modal - Text -->
               <h2>2017 - Actualmente · CFGS de DESARROLLO DE APLICACIONES WEB</h2><br>
               <h3>Institut Obert de Catalunya (Barcelona)</h3><br>
-              <h5>FORMACIÓN EN LAS SIGUIENTES MATERIAS:</h5>
+              <h5>CONTENIDO DEL CURSO:</h5>
               <ul>
                 <li>Programación estructurada, modular y orientada a objetos.</li>
                 <li>Fundamentos de gestión de ficheros y bases de datos.</li>
@@ -402,11 +400,60 @@
               </ul>
               <h5>FORMACIÓN COMPLEMENTARIA</h5>
               <ul>
+                <li>2019 · AWS Training and certification: Curso - AWS Cloud Practitioner Essentials (Second Edition).</li>
                 <li>2018 · PUE Barcelona: Android ATC - Desarrollo de aplicaciones con dispositivos Android (70h).</li>
               </ul>
               <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Estudio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="estudio_modal_3" tabindex="-1" role="dialog" aria-labelledby="estudio_modal_3_label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Bootcamp Online</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-circle"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <!-- Portfolio Modal - Text -->
+                <h2>2020 · FRONTEND REACT</h2><br>
+                <h3>Geeks Hubs Academy</h3><br>
+                <h5>CONTENIDO DEL CURSO:</h5>
+                <ul>
+                  <li>GIT + GITHUB</li>
+                  <li>MAQUETACIÓN WEB (HTML5, CSS3, Bootstrap, JS Vanilla, JS E6, DOM & BOM)</li>
+                  <li>NODE + NPM</li>
+                  <li>REACT JS + REDUX</li>
+                  <li>BABEL + WEBPACK</li>
+                </ul>
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Cerrrar
                 </button>
               </div>
             </div>
@@ -446,11 +493,9 @@
                 </p>
                 <h5>Descripción de las responsabilidades:</h5>
                 <ul>
-                  <li>Desarrollo de la aplicación web de la compañía (CRM
-para automoción y eventos). Laravel, Git, Javascript, Angular...</li>
+                  <li>Desarrollo de la aplicación web de la compañía (CRM para automoción y eventos). Laravel, Git, Javascript, Angular...</li>
                   <li>Atención y resolución de incidencias relacionadas con bugs.</li>
-                  <li>Administración de los servidores de test. Despliegues de nuevas
-versiones. Docker, Jenkins...</li>
+                  <li>Administración de los servidores de test. Despliegues de nuevas versiones. Docker, Jenkins...</li>
                 </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
