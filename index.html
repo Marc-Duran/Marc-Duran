@@ -18,6 +18,10 @@
   <!-- Theme CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
 
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 
 <body id="page-top">
@@ -94,7 +98,7 @@
       <div class="row">
 
         <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-4 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
@@ -106,7 +110,7 @@
         </div>
 
         <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-4 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
@@ -116,6 +120,19 @@
             <img class="img-fluid" src="img/portfolio/develop.png" alt="">
           </div>
         </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-4 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/geekshubs.png" alt="">
+          </div>
+        </div>
+
       </div>
       <!-- /.row -->
     </div>
@@ -186,7 +203,7 @@
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">Algo sobre mí</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white">Mi <strike>crush</strike> stack tecnológico</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -199,11 +216,27 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Antes de nada, flipo que estés leyendo esto. No se quien eres y no se si curioseas o vienes de alguna candidatura pero, igualmente, Hola. No soy la persona más hábil describiendóme.</p>
+        <div class="col-md-12 text-center">
+              <i class="fab fa-html5 fa-3x"></i>
+              <i class="fab fa-css3-alt fa-3x"></i>
+              <i class="fab fa-js-square fa-3x"></i>
+              <i class="fab fa-php fa-3x"></i>
+              <i class="fab fa-laravel fa-3x"></i>
+              <i class="fab fa-react fa-3x"></i>
+              <i class="fab fa-bootstrap fa-3x"></i>
+              <i class="fab fa-aws fa-3x"></i>
+              <i class="fab fa-docker fa-3x"></i>
+              <i class="fab fa-jenkins fa-3x"></i>
+              <i class="fab fa-git-square fa-3x"></i>
+              <i class="fab fa-windows fa-3x"></i>
+              <i class="fab fa-linux fa-3x"></i>
         </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">En modo telegrama, te diré que soy básicamente un administrador de sistemas, al que le ha picado el gusano de desarrollar cosas. Quizá por más creativo o quizás por desconocimiento.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="lead">
+            Estás son las tecnologías con las que me gustaría trabjar. Por supuesto, 
+          </p>
         </div>
       </div>
 
@@ -217,20 +250,15 @@
 
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Ubicación y Contacto</h4>
+          <h4 class="text-uppercase mb-4">Ubicación</h4>
           <p class="lead mb-0">
-            <i class="fas fa-map-marker-alt"></i>
-            Barcelona
-          </p>
-          <p class="lead mb-0">
-            <i class="fas fa-envelope"></i>
-            marc@duranxanco.com
+            <div id='map' style='width: 100%; height: 300px;'></div>
           </p>
         </div>
 
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Stalkeas? Toma</h4>
+          <h4 class="text-uppercase mb-4">Stalkeas? Contactamos?</h4>
           <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/marcduranxanco" target="_blank">
             <i class="fab fa-fw fa-github"></i>
           </a>
@@ -239,6 +267,9 @@
           </a>
           <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/marcduranxanco/" target="_blank">
             <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="mailto:marc@duranxanco.com" target="_blank">
+            <i class="fas fa-envelope"></i>
           </a>
         </div>
 
@@ -536,12 +567,17 @@ versiones. Docker, Jenkins...</li>
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY2R1cmFueGFuY28iLCJhIjoiY2s4cmZvM2lpMDJiMTNscGppeDJuOGUxeCJ9.K35g7tHD4ztWZ-wrryQzFw';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/marcduranxanco/ck8wzhzyi3s0m1iph88i2j3m8',
+    zoom: 12,
+    center: [2.183291, 41.430247]});
+  </script>
 
 </body>
 
